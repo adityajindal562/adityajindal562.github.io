@@ -1,17 +1,24 @@
-body{
-    background: #FFE4C4;
+/* General */
+body {
+    /* All ownership of background picture belongs to Jeff Jijy, if you would like to contact him feel free to at jeffjijy@yahoo.com */
+    background-image: url("../Images/Jeff_Jijy/large.3725d7ec5bd949bcaebb8c302ea14dbb");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-div#InspirtionalQuote{
+.Inspirational_Quotes {
+    background-color: rgba(255,255,255,0.5);
     text-align: center;
-
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-div#HomepageDescription{
-    text-align:center;
-}
-
-ul {
+.Navigation_Bar
+    ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,7 +42,63 @@ li a:hover {
     background-color: #111;
 }
 
-div#HomepageImages{
+.Descriptions {
     text-align: center;
-    border-bottom: 100%;
+    color: white;
+}
+
+.PageInformation{
+    margin-left: 20%;
+    margin-right: 20%;
+
+    background-color: rgba(255,255,255,0.5);
+}
+
+.ImageBanners{
+    margin-top: 1%;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.NewsArticles
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* Homepage */
+div#HomepageImages {
+    text-align: center;
+}
+
+#HomepageHeading{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
+.NewsArticles{
+    padding-bottom:1%;
+}
+
+/* Memebers */
+.Members{
+    padding-bottom: 1%;
 }

@@ -1,0 +1,58 @@
+/* General */
+body{
+    /* All ownership of background picture belongs to Jeff Jijy, if you would like to contact him feel free to at jeffjijy@yahoo.com */
+    background-image: url("../Images/large.e9e3c90302b6443f9ac4ea7907bb43a0");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
+.Inspirational_Quotes{
+    text-align: center;
+    color: white;
+
+}
+
+.Navigation_Bar
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #4682B4;
+    }
+    
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+    }
+.Descriptions{
+    text-align:center;
+    color:white;
+}
+
+/* Homepage */
+div#HomepageImages{
+    text-align: center;
+    border-bottom: 100%;
+}
+
+/* Donate */
+#DonateDescription{
+
+}
